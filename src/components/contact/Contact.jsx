@@ -52,8 +52,8 @@ const Contact = () => {
               Baghpat, Uttat Pardesh, India
             </div>
             <div className="links">
-              <a href=""> <img src="/icons/linkedin.png" alt="" /></a>
-              <a href=""> <img src="/icons/linkedin.png" alt="" /></a>
+              <a href="https://www.linkedin.com/in/shivamvr/" rel="noopener noreferrer" target="_blank"> <img src="/icons/linkedin.png" alt="" /></a>
+              <a href="https://github.com/shivamvr" rel="noopener noreferrer" target="_blank"> <img src="/icons/github.png" alt="" /></a>
             </div>
           </div>
         </div>
