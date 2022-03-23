@@ -61,10 +61,13 @@ input {
   width: 50%;
   height: 50px;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1.5px solid #333;
   margin: 10px 0px;
   font-size: 14px;
   padding-left: 10px;
+}
+input:hover{
+  border-bottom: 1.5px solid #3ee4b5;
 }
 
 textarea {

@@ -7,7 +7,10 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-left-wrapper">
           <h2 className="i-intro">Hello, My name is</h2>
-          <h1 className="i-name">Shivam Verma</h1>
+          <h1 className="i-name">Shivam Verma <span> 
+          <a className="resume" href="https://www.canva.com/design/DAE0x2J8wnw/ryXBJQRsxKLUW1u3uUvBCw/view?utm_content=DAE0x2J8wnw&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu" rel="noopener noreferrer" target="_blank"> <img src="https://img.icons8.com/dotty/344/resume.png" alt="" /></a>
+          </span>
+          </h1>
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">Web Developer</div>
