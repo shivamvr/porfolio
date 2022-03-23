@@ -51,6 +51,10 @@ const Contact = () => {
               <img className="c-icon" src={Address} alt="" />
               Baghpat, Uttat Pardesh, India
             </div>
+            <div className="links">
+              <a href=""> <img src="/icons/linkedin.png" alt="" /></a>
+              <a href=""> <img src="/icons/linkedin.png" alt="" /></a>
+            </div>
           </div>
         </div>
         <div className="c-right">

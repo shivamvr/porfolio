@@ -6,7 +6,7 @@
 .c-bg {
   width: 20px;
   height: 100%;
-  background-color: #F09105;
+  background-color: #36CCA2;
   position: absolute;
 }
 
@@ -69,17 +69,28 @@ textarea {
   margin: 10px 0px;
   font-size: 14px;
   padding-left: 10px;
+  border-radius: .4rem;
 }
 
 button {
   border: none;
-  padding: 15px;
-  background-color: #F09105;
+  border-radius: .6rem;
+  padding: 10px 15px;
+  background-color: #36CCA2;
   color: white;
   font-weight: 500;
   cursor: pointer;
 }
-
+.links{
+  width: 200px;
+  height: 50px;
+  border: solid;
+  
+}
+.links img{
+  width: 50px;
+  height: 50px;
+}
 @media screen and (max-width: 480px) {
   .c-wrapper {
     flex-direction: column;

@@ -1,5 +1,5 @@
 .a {
-  height: 100vh;
+  height: 500px;
   display: flex;
   align-items: center;
 }
@@ -11,12 +11,10 @@
   justify-content: center;
   position: relative;
   height: 100%;
-  border: solid;
 }
 
 .a-right {
   flex: 1;
-  border: solid;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -25,9 +23,9 @@
 
 .a-card.bg {
   position: absolute;
-  top: 50px;
+  top: 48px;
   left: 50px;
-  background-color: #333;
+  background-color: rgb(59, 59, 59);
 }
 
 .a-card {
@@ -36,7 +34,7 @@
   border-radius: 30px;
   position: relative;
   overflow: hidden;
-  border: solid;
+  border: solid #333;
 }
 
 .a-img {
@@ -56,12 +54,14 @@
   align-items: center;
   border: solid;
   padding: 2rem;
+  border-radius: 1rem;
+
 }
 .skills img{
   border-radius: 1rem;
   width: 60px;
   margin: 12px;
-  box-shadow: 0 2px 4px #ccc;
+  box-shadow: 0 2px 4px rgba(51, 51, 51, 0.3);
   padding: .5rem;
   cursor: pointer;
   background: #fff;
@@ -84,7 +84,7 @@
     }
 
     .a-card {
-      height: 30vh;
+      height: 90px;
     }
 
     .a-card.bg, .a-award {

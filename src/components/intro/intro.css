@@ -1,6 +1,7 @@
 .i {
   display: flex;
-  height: 100vh;
+  height: 560px;
+  margin-bottom: 2rem;
 }
 
 .i-left {
@@ -61,7 +62,7 @@
   height: 50px;
   font-size: 30px;
   font-weight: bold;
-  color: #F09105;
+  color: #36CCA2;
   display: flex;
   align-items: center;
 }
