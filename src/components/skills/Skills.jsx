@@ -2,7 +2,10 @@ import './skills.css'
 const About = () => {
   return (
     <div className="a">
-      <div className="a-left">
+        <h1 className="a-title">Skills</h1>
+    <div className='container'>
+
+      <div className="a-left" >
         <div className="a-card bg"></div>
         <div className="a-card">
           <img
@@ -12,8 +15,8 @@ const About = () => {
           />
         </div>
       </div>
+
       <div className="a-right">
-        <h1 className="a-title">Skills</h1>
     <div className='skill'>
 
         <div className="flip-card">
@@ -139,6 +142,8 @@ const About = () => {
 
         </div>
       </div>
+
+    </div>
     </div>
   )
 }

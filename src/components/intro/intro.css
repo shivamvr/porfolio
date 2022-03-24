@@ -18,7 +18,7 @@
 
 .i-left-wrapper {
   padding: 50px;
-  height: 50%;
+  height: 60%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -34,12 +34,12 @@
 }
 
 .i-title {
-  height: 50px;
-  overflow: hidden;
+   height: 40px;
+   overflow: hidden;
 }
 
 .i-title-wrapper {
-  height: 100%;
+  height: 40px;
   animation: move 10s ease-in-out infinite alternate;
 }
 
@@ -62,16 +62,9 @@
   height: 50px;
   font-size: 30px;
   font-weight: bold;
-  color: #36CCA2;
+  color: #36cca2;
   display: flex;
   align-items: center;
-}
-
-.i-scroll {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  bottom: 20px;
 }
 
 .i-img {
@@ -87,15 +80,23 @@
 
 .i-bg {
   clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-  background-color: #181E36;
+  background-color: #181e36;
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   right: 0;
 }
-.resume img{
-  width: 50px;
+
+.resume {
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+  background: #36cca2;
+  border-radius: 1rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 480px) {
@@ -104,7 +105,6 @@
   }
 
   .i-left-wrapper {
-  
     padding: 10px;
     align-items: center;
     justify-content: center;
@@ -112,8 +112,7 @@
     height: 100%;
   }
 
-  .i-desc{
+  .i-desc {
     display: none;
   }
-  
 }
