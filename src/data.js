@@ -16,6 +16,14 @@ export const products = [
   },
   {
     id: 3,
+    img: "https://d33wubrfki0l68.cloudfront.net/623cbdcdcf832b00098096ef/screenshot_2022-03-24-18-52-25-0000.png",
+    link: "https://ignitte.netlify.app/",
+    code: "https://github.com/ignite/blog-wesite",
+    tstack: ["html", "css", "react","redux", "styled", "javascript,motion"]
+
+  },
+  {
+    id: 4,
     img: "https://d33wubrfki0l68.cloudfront.net/623a19e3226c6b00089f5590/screenshot_2022-03-22-18-48-16-0000.png",
     link: "https://blogite.netlify.app/",
     code: "https://github.com/shivamvr/blog-wesite",
@@ -23,7 +31,7 @@ export const products = [
 
   },
   {
-    id: 4,
+    id: 5,
     img: "https://d33wubrfki0l68.cloudfront.net/623c6e68656dea0009a46a37/screenshot_2022-03-24-13-13-37-0000.png",
     link: "https://keepite.netlify.app/",
     code: "https://github.com/shivamvr/KeeperApp",

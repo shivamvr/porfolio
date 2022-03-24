@@ -140,6 +140,17 @@ const About = () => {
           </div>
         </div>
 
+        <div className="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img src="/icons/motion.png" alt="Avatar" />
+            </div>
+            <div className="flip-card-back">
+              <p>Framer motion</p>
+            </div>
+          </div>
+        </div>
+
         </div>
       </div>
 
