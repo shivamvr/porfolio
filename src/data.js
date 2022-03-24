@@ -17,7 +17,7 @@ export const products = [
   {
     id: 3,
     img: "https://d33wubrfki0l68.cloudfront.net/623a19e3226c6b00089f5590/screenshot_2022-03-22-18-48-16-0000.png",
-    link: "http://lama.dev",
+    link: "https://blogite.netlify.app/",
     code: "https://github.com/shivamvr/blog-wesite",
     tstack: ["html", "css", "react", "sass", "javascript"]
 
