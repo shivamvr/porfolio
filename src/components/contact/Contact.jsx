@@ -20,11 +20,12 @@ const Contact = () => {
         "template_a3q74qb",
         formRef.current,
         "XnSEVYAwNO1ssEBqb"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          setDone(true)
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            setDone(true)
+            console.log('formRef.current:', formRef.current)
         },
         (error) => {
           console.log(error.text);
