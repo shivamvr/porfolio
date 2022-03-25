@@ -32,6 +32,7 @@ export const products = [
   },
   {
     id: 5,
+    img: "/icons/keeper.png",
     link: "https://keepite.netlify.app/",
     code: "https://github.com/shivamvr/KeeperApp",
     tstack: ["html", "css","javascript",'react']
