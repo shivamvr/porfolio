@@ -18,7 +18,7 @@ export const products = [
     id: 3,
     img: "/icons/ignite.png",
     link: "https://ignitte.netlify.app/",
-    code: "https://github.com/ignite/blog-wesite",
+    code: "https://github.com/shivamvr/ignite",
     tstack: ["html", "css", "react","redux", "styled", "javascript","motion"]
 
   },
