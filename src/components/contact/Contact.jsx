@@ -19,7 +19,7 @@ const Contact = () => {
         "service_shivamvr",
         "template_a3q74qb",
         formRef.current,
-        "user_XnSEVYAwNO1ssEBqb"
+        "XnSEVYAwNO1ssEBqb"
       )
       .then(
         (result) => {
