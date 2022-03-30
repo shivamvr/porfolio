@@ -26,17 +26,18 @@ const Contact = () => {
             console.log(result.text);
             setDone(true)
             console.log('formRef.current:', formRef.current)
+            e.target.reset()
         },
         (error) => {
           console.log(error.text);
         }
-      );
+        );
   };
 
   return (
     <div className="c">
       <div className="c-bg"></div>
-      <div className="c-wrapper">
+      <div style={ {background: theme.state.darkMode && '#222'}} className="c-wrapper">
         <div className="c-left">
           <h1 className="c-title">Let's discuss your project</h1>
           <div className="c-info">
@@ -69,7 +70,7 @@ const Contact = () => {
             <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email" />
             <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message" />
             <button>Submit</button>
-            {done && "Thank you..."}
+            {done && " "+" Thank you..."}
           </form>
         </div>
       </div>
