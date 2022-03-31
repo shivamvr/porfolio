@@ -17,10 +17,10 @@ const Navbar = () => {
   }
   return (
     <nav>
-     <span onClick={()=>makeActive('1')}><a href="#about">About</a>  <div className={`line ${isActive.about ? 'active':''} ` }> </div></span>
-     <span onClick={()=>makeActive('2')}><a href="#skills">Skills</a> <div className={`line ${isActive.skills ? 'active':''} ` }></div></span>
-     <span onClick={()=>makeActive('3')}><a href="#projects">Projects</a> <div className={`line ${isActive.projects ? 'active':''} ` }></div></span>
-     <span onClick={()=>makeActive('4')}><a href="#contact">Contact</a> <div className={`line ${isActive.contact ? 'active':''} ` }></div></span>
+     <span ><a onClick={()=>makeActive('1')} href="#about">About</a>  <div className={`line ${isActive.about ? 'active':''} ` }> </div></span>
+     <span ><a onClick={()=>makeActive('2')} href="#skills">Skills</a> <div className={`line ${isActive.skills ? 'active':''} ` }></div></span>
+     <span ><a onClick={()=>makeActive('3')} href="#projects">Projects</a> <div className={`line ${isActive.projects ? 'active':''} ` }></div></span>
+     <span ><a onClick={()=>makeActive('4')} href="#contact">Contact</a> <div className={`line ${isActive.contact ? 'active':''} ` }></div></span>
     </nav>
   ) 
 }

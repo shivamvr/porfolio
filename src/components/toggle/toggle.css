@@ -17,3 +17,19 @@
     height: 28px;
 }
 
+/* STYLING SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 15px; /* THIS WILL RESET THE DEFAULT SCORLLBAR STYLING */
+  }
+  
+  /* TO STYLE THE SCROLLBAR TRACK */
+  ::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.2); /* THIS WILL SET THE COLOR OF THE SCROLLBAR TRACK */
+  }
+  
+  /* TO STYLE THE SCROLLBAR THUMB */
+  ::-webkit-scrollbar-thumb {
+    background-color: #36CCA2;
+    border-radius: 5vw;
+  }
