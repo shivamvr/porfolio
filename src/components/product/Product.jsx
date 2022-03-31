@@ -1,7 +1,8 @@
 import "./product.css";
 import Technology from "./Technology";
+import Info from "./Info";
 
-const Product = ({img,id,link,code,tstack}) => {
+const Product = ({img,id,link,code,tstack,info}) => {
   return (
     <div className="p">
       <div className="p-browser">
@@ -13,6 +14,7 @@ const Product = ({img,id,link,code,tstack}) => {
       <a href={link} rel="noopener noreferrer" target="_blank">
         <img src={img} alt="" className="p-img" />
       </a>
+      <Info text={info}/>
       <Technology id={id} icons={tstack}/>
     </div>
   );

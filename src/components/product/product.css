@@ -5,6 +5,7 @@
   border: 1.5px solid rgb(243, 242, 242);
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
+  position: relative;
 }
 
 .p-browser {
@@ -33,7 +34,7 @@
 }
 
 .p:hover .p-img {
-  transform: translateY(-10%);
+  transform: translateY(-15%);
 }
 .code{
   align-items: center;

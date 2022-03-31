@@ -1,4 +1,6 @@
-
+a{
+  color: #333;
+}
 nav{
     background: rgb(12,233, 178);
     display: flex;
@@ -21,4 +23,5 @@ nav span{
     border-radius: 10px;
     height: 3px;
     margin-top: 1px;
+    box-shadow: 0 2px 4px rgba(51, 51, 51, 0.2);
 }
