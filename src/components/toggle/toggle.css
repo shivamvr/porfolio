@@ -31,5 +31,5 @@
   /* TO STYLE THE SCROLLBAR THUMB */
   ::-webkit-scrollbar-thumb {
     background-color: #36CCA2;
-    border-radius: 5vw;
+    /* border-radius: 5vw; */
   }

@@ -1,0 +1,302 @@
+@media only screen and (max-width: 1320px) {
+    .c-left > h1 {
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 1220px) {
+  .skill {
+    width: 70%;
+    height: 402px;
+    padding: 1rem;
+  }
+  .a-card {
+    width: 400px;
+    height: 400px;
+  }
+
+  input {
+    width: 70%;
+  }
+
+  .c-left > h1 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  /* --------Intro-------- */
+  .pl-list {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .p {
+    width: 75%;
+    margin: 20px 10px;
+  }
+  .i-left-wrapper {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  /* --------Intro-------- */
+  .i-left {
+    flex: 1.6;
+  }
+
+  .i-right {
+    flex: 1;
+    position: relative;
+  }
+  .i-left-wrapper {
+    padding: 40px;
+  }
+  .shape {
+    margin: 7rem 0 0 1rem;
+    width: 300px;
+  }
+  /* --------Skills-------- */
+  .a-left {
+    flex: 1;
+  }
+
+  .a-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .a-card {
+    width: 360px;
+    height: 400px;
+  }
+
+  .skill {
+    width: 70%;
+    height: 372px;
+    padding: 1rem;
+  }
+
+  /* --------Project-------- */
+
+  .pl {
+    padding: 40px 50px;
+  }
+  /* --------Contact-------- */
+  .c-wrapper {
+    padding: 50px;
+    display: flex;
+  }
+  .c-left {
+    flex: 1;
+  }
+  .c-right {
+    flex: 1.5;
+  }
+  input {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+      .p {
+        width: 90%;
+        margin: 20px 10px;
+      }
+  .skill {
+    margin-top: 4rem;
+    width: 50%;
+    height: 402px;
+    padding: 1rem;
+  }
+  .a-card {
+    width: 60%;
+    min-height: 300px;
+    height: auto;
+  }
+  .a-card>img{
+      min-height: 350px;
+  }
+  .a-card.bg {
+    background: none;
+    border: none;
+  }
+  .a {
+    height: 1050px;
+  }
+  .container {
+    flex-direction: column;
+  }
+
+  /* --------Contact-------- */
+  .c-wrapper {
+    flex-direction: column;
+  }
+  .c-left {
+    flex: 1;
+  }
+  .c-left > h1 {
+    font-size: 35px;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  .c-right {
+    margin-top: 2rem;
+    flex: 1;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .i-intro {
+    font-size: 20px;
+  }
+
+  .i-name {
+    font-size: 25px;
+  }
+
+  .i-left-wrapper {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+    .a {
+        height: 1000px;
+      }
+    .p {
+        width: 100%;
+        margin: 20px 5px;
+      }
+    .pl{
+        padding-top: 0px;
+    }
+    .pl-title{
+        font-size: 40px;
+    }
+  .i-name {
+    font-size: 40px;
+  }
+  .i-intro {
+    font-size: 40px;
+  }
+  .c-left > h1 {
+    font-size: 40px;
+  }
+  .i {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .i-left {
+    order: 2;
+    flex: 1.6;
+  }
+
+  .i-right {
+    order: 1;
+    flex: 1;
+    position: relative;
+  }
+  .i-left-wrapper {
+    padding: 40px;
+  }
+
+  .shape {
+    margin-top: 6rem;
+    width: 300px;
+  }
+
+  .skill {
+    width: 60%;
+  }
+  .a-card {
+    width: 60%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+    .a-card {
+       width: 75%;
+       height: 320px;
+    }
+    .a {
+        height: 750px;
+      }
+    .skill{
+        width: 85%;
+        padding: 0;
+    }
+    .flip-card {
+        margin: 0.3rem;
+        perspective: 1000px; /* Remove this if you don't want the 3D effect */
+      }
+    .i-left-wrapper {
+        padding: 20px;
+        height: 60%;
+      }
+    .i-left{
+        height: 800px;
+    }
+    .i-name {
+      font-size: 30px;
+    }
+    .i-intro{
+        font-size: 30px;
+    }
+    .pl {
+        padding: 10px 20px;
+      }
+      .p-img{
+          height: 280px;
+      }
+      .pl-texts {
+        width: 60%;
+      }
+      
+      nav{
+        width: 100%;
+        z-index: 4;
+        position: fixed;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    nav span{
+      font-size: 14px;
+      margin: .4rem .2rem;
+      padding: .5rem;
+    }
+    .t{
+        width: 40px;
+        height: 40px;
+        top: 5px;
+        left: 20px;
+    }
+    }
+    @media only screen and (max-width: 470px) {
+        .a {
+            height: 820px;
+          }
+        .a-card {
+           width: 80%;
+           height: 320px;
+        }
+        .skill{
+            height: auto;
+        }
+        .pl-texts{
+            width: 80%;
+        }
+        .pl-title{
+            font-size: 30px;
+        }
+        }
