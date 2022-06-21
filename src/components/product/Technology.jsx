@@ -5,7 +5,7 @@ function Technology({icons}) {
     <div className='tstack'>
       {icons.map((icon,index)=> <img key={index} src={`/icons/${icon}.png`} alt={icon} /> )}
     </div>
-  )
+  ) 
 }
 
 export default Technology

@@ -20,7 +20,9 @@ const Intro = () => {
 
           <p className="i-desc">
            An Aspiring Developer with a passion for developing scalable web applications. I am adept in the front-end and have an eye for attention to detail and accuracy.
-          <a className="resume" href="https://www.canva.com/design/DAE0x2J8wnw/ryXBJQRsxKLUW1u3uUvBCw/view?utm_content=DAE0x2J8wnw&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu" rel="noopener noreferrer" target="_blank">Resume</a>
+          <a className="resume" href="
+          https://drive.google.com/file/d/1oKz4zJijU6QmOc9BYByLr98ItaoqnyNH/view?usp=sharing
+          " rel="noopener noreferrer" target="_blank">Resume</a>
           </p>
         </div>
 
