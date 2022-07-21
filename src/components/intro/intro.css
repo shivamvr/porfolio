@@ -68,7 +68,8 @@
 }
 
 .i-img {
-  width: 105%;
+  transform: translateX(-10px) translateY(-30px);
+  width: 108%;
 }
 
 .shape{
