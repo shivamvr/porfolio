@@ -18,7 +18,7 @@ const Intro = () => {
           </div>
 
           <p className='i-desc'>
-            An Aspiring Developer with a passion for developing scalable web
+            A successful Developer with a passion for developing scalable web
             applications. I am adept in the front-end and have an eye for
             attention to detail and accuracy.
             <a
