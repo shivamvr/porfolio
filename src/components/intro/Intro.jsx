@@ -24,7 +24,7 @@ const Intro = () => {
             <a
               className='resume'
               href='
-              https://drive.google.com/file/d/1Wr434g1003JAv5jB8rby4KLKLrVvaTwc/view?usp=sharing
+              https://drive.google.com/file/d/1FNRk0CxJU2_3TI82kJleYQNnvJveNutb/view?usp=sharing
           '
               rel='noopener noreferrer'
               target='_blank'
